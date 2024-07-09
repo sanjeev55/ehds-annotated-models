@@ -1,0 +1,13 @@
+<Analysis>
+  <name>data-access-control_analysis</name>
+  <modelFile>\data-access-control\data-access-control.uml</modelFile>
+  <modelType>UML2</modelType>
+  <checks>
+    <Check>
+      <checkID>carisma.check.idscheck.dataaccesscheck</checkID>
+      <enabled>true</enabled>
+      <parameters/>
+    </Check>
+  </checks>
+  <selectedEditor></selectedEditor>
+</Analysis>

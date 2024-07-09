@@ -1,0 +1,18 @@
+<Analysis>
+  <name>data-usage-control_analysis</name>
+  <modelFile>\data-usage-control\data-usage-control.uml</modelFile>
+  <modelType>UML2</modelType>
+  <checks>
+    <Check>
+      <checkID>carisma.check.idscheck.datausagecheck</checkID>
+      <enabled>false</enabled>
+      <parameters/>
+    </Check>
+    <Check>
+      <checkID>carisma.check.idscheck.dataprovenancecheck</checkID>
+      <enabled>true</enabled>
+      <parameters/>
+    </Check>
+  </checks>
+  <selectedEditor></selectedEditor>
+</Analysis>

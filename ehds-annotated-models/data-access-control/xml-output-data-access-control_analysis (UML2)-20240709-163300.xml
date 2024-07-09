@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AnalysisResult>
+    <AnalyzedModel>data-access-control_analysis (UML2)</AnalyzedModel>
+    <Filepath>\data-access-control\data-access-control.uml</Filepath>
+    <Status>FAIL</Status>
+    <Timestamp>20240709-163300</Timestamp>
+    <CheckResult>
+        <name>UMLsec4ids Data Access Control Check</name>
+        <successful>false</successful>
+        <results>
+            <status>INFO</status>
+            <text>The Attributes of the Owner and Consumer do not match</text>
+        </results>
+    </CheckResult>
+    <ReportDump>------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Running check : UMLsec4ids Data Access Control Check
+------------------------------------------------------------------------------------
+INFO: The Attributes of the Owner and Consumer do not match
+
+The Attributes of the Consumer are not sufficient for the access request for Owner Attributes : [DE, Trust] and Consumer Attributes : [Trust]
+</ReportDump>
+</AnalysisResult>

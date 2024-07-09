@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmlns:umlsec4ids="http://www.umlsec.de/profiles/UMLsec/umlsec4ids">
+  <uml:Model xmi:id="_xVSdgD3VEe-9c5rIXkOi4Q" name="trusted-platform">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_xXigQD3VEe-9c5rIXkOi4Q">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Y1gfcD3WEe-9c5rIXkOi4Q" name="Health Care Provider A">
+      <packagedElement xmi:type="uml:Node" xmi:id="_yTKbAD3VEe-9c5rIXkOi4Q" name="Router">
+        <deployment xmi:type="uml:Deployment" xmi:id="_nPFNED3WEe-9c5rIXkOi4Q" client="_yTKbAD3VEe-9c5rIXkOi4Q" supplier="_z8JyED3VEe-9c5rIXkOi4Q" deployedArtifact="_z8JyED3VEe-9c5rIXkOi4Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_z8JyED3VEe-9c5rIXkOi4Q" name="IDS connector A"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ZlWoAD3WEe-9c5rIXkOi4Q" name="Health Data Acccess Body">
+      <packagedElement xmi:type="uml:Node" xmi:id="_yHNCoD3VEe-9c5rIXkOi4Q" name="Router">
+        <deployment xmi:type="uml:Deployment" xmi:id="_mp_jAD3WEe-9c5rIXkOi4Q" client="_yHNCoD3VEe-9c5rIXkOi4Q" supplier="_zrh8ID3VEe-9c5rIXkOi4Q" deployedArtifact="_zrh8ID3VEe-9c5rIXkOi4Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_zrh8ID3VEe-9c5rIXkOi4Q" name="IDS connector B"/>
+      <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_mIHlAD3WEe-9c5rIXkOi4Q" memberEnd="_mIO5wT3WEe-9c5rIXkOi4Q _mIPg0D3WEe-9c5rIXkOi4Q">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mIOSsD3WEe-9c5rIXkOi4Q" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mIO5wD3WEe-9c5rIXkOi4Q" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_mIO5wT3WEe-9c5rIXkOi4Q" name="router" type="_yTKbAD3VEe-9c5rIXkOi4Q" association="_mIHlAD3WEe-9c5rIXkOi4Q"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_mIPg0D3WEe-9c5rIXkOi4Q" name="router" type="_yHNCoD3VEe-9c5rIXkOi4Q" association="_mIHlAD3WEe-9c5rIXkOi4Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_oPsVgD3WEe-9c5rIXkOi4Q" client="_zrh8ID3VEe-9c5rIXkOi4Q" supplier="_z8JyED3VEe-9c5rIXkOi4Q"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_xXHCcD3VEe-9c5rIXkOi4Q">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xXL68D3VEe-9c5rIXkOi4Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.umlsec.de/profiles/UMLsec/umlsec4ids#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UMLsec/umlsec4ids.uml#_8Kno0CrOEe2IEZY6UiCIqg"/>
+    </profileApplication>
+  </uml:Model>
+  <umlsec4ids:certified xmi:id="_rIhj0D3WEe-9c5rIXkOi4Q" base_Node="_yHNCoD3VEe-9c5rIXkOi4Q"/>
+  <umlsec4ids:encryption xmi:id="_rIqGsD3WEe-9c5rIXkOi4Q" base_Node="_yHNCoD3VEe-9c5rIXkOi4Q"/>
+</xmi:XMI>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AnalysisResult>
+    <AnalyzedModel>trusted-platform_analysis (UML2)</AnalyzedModel>
+    <Filepath>\trusted-platform\trusted-platform.uml</Filepath>
+    <Status>FAIL</Status>
+    <Timestamp>20240709-114529</Timestamp>
+    <CheckResult>
+        <name>UMLsec4ids Trusted Platform Check</name>
+        <successful>false</successful>
+        <results>
+            <status>INFO</status>
+            <text>Nodes are not verified</text>
+        </results>
+    </CheckResult>
+    <ReportDump>------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Running check : UMLsec4ids Trusted Platform Check
+------------------------------------------------------------------------------------
+INFO: Nodes are not verified
+
+Router is missing the &lt;&lt;verified&gt;&gt; Stereotype
+</ReportDump>
+</AnalysisResult>

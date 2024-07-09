@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AnalysisResult>
+    <AnalyzedModel>data-usage-control_analysis (UML2)</AnalyzedModel>
+    <Filepath>\data-usage-control\data-usage-control.uml</Filepath>
+    <Status>FAIL</Status>
+    <Timestamp>20240709-141533</Timestamp>
+    <CheckResult>
+        <name>UMLsec4ids Data Provenance Check</name>
+        <successful>false</successful>
+        <results>
+            <status>INFO</status>
+            <text>There is no existing Clearing House</text>
+        </results>
+        <results>
+            <status>INFO</status>
+            <text>Protected Actions are not executed by a Clearing House.</text>
+        </results>
+    </CheckResult>
+    <ReportDump>------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Running check : UMLsec4ids Data Provenance Check
+------------------------------------------------------------------------------------
+IMPORTANT
+To run this check succcessfully you have to name every element!
+Therefore give names not only to actions but to forks, joins, merges and decisions as well.
+Only model within the given Activity.
+--------------------------------------------------------------
+
+INFO: There is no existing Clearing House
+
+There is no existing Clearing House in Data exchange
+
+INFO: Protected Actions are not executed by a Clearing House.
+
+There is a protected Action Log data transfer that is not executed by a Clearing House in Data exchange
+</ReportDump>
+</AnalysisResult>

@@ -1,0 +1,13 @@
+<Analysis>
+  <name>trusted-platform_analysis</name>
+  <modelFile>\trusted-platform\trusted-platform.uml</modelFile>
+  <modelType>UML2</modelType>
+  <checks>
+    <Check>
+      <checkID>carisma.check.idscheck.trustedplatformcheck</checkID>
+      <enabled>true</enabled>
+      <parameters/>
+    </Check>
+  </checks>
+  <selectedEditor></selectedEditor>
+</Analysis>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AnalysisResult>
+    <AnalyzedModel>data-usage-control_analysis (UML2)</AnalyzedModel>
+    <Filepath>\data-usage-control\data-usage-control.uml</Filepath>
+    <Status>FAIL</Status>
+    <Timestamp>20240709-165050</Timestamp>
+    <CheckResult>
+        <name>UMLsec4ids Data Usage Control Check</name>
+        <successful>false</successful>
+        <results>
+            <status>INFO</status>
+            <text>There is a decision node the diagram</text>
+        </results>
+        <results>
+            <status>INFO</status>
+            <text>There is a fork node the diagram</text>
+        </results>
+        <results>
+            <status>INFO</status>
+            <text>Actor tries to execute an Action that is not permitted!</text>
+        </results>
+        <results>
+            <status>INFO</status>
+            <text>Actor tries to execute an Action that is not permitted!</text>
+        </results>
+        <results>
+            <status>INFO</status>
+            <text>Actor tries to execute an Action that is not permitted!</text>
+        </results>
+        <results>
+            <status>INFO</status>
+            <text>Actor tries to execute an Action that is not permitted!</text>
+        </results>
+        <results>
+            <status>INFO</status>
+            <text>Actor tries to execute an Action that is not permitted!</text>
+        </results>
+        <results>
+            <status>INFO</status>
+            <text>Actor tries to execute an Action that is not permitted!</text>
+        </results>
+        <results>
+            <status>INFO</status>
+            <text>Actor tries to execute an Action that is not permitted!</text>
+        </results>
+        <results>
+            <status>INFO</status>
+            <text>Actor tries to execute an Action that is not permitted!</text>
+        </results>
+        <results>
+            <status>INFO</status>
+            <text>Actor tries to execute an Action that is not permitted!</text>
+        </results>
+        <results>
+            <status>INFO</status>
+            <text>Actor tries to execute an Action that is not permitted!</text>
+        </results>
+        <results>
+            <status>INFO</status>
+            <text>Actor tries to execute an Action that is not permitted!</text>
+        </results>
+        <results>
+            <status>INFO</status>
+            <text>Actor tries to execute an Action that is not permitted!</text>
+        </results>
+        <results>
+            <status>INFO</status>
+            <text>Actor tries to execute an Action that is not permitted!</text>
+        </results>
+        <results>
+            <status>INFO</status>
+            <text>Actor tries to execute an Action that is not permitted!</text>
+        </results>
+        <results>
+            <status>INFO</status>
+            <text>Actor tries to execute an Action that is not permitted!</text>
+        </results>
+        <results>
+            <status>INFO</status>
+            <text>Actor tries to execute an Action that is not permitted!</text>
+        </results>
+        <results>
+            <status>INFO</status>
+            <text>Actor tries to execute an Action that is not permitted!</text>
+        </results>
+        <results>
+            <status>INFO</status>
+            <text>Actor tries to execute an Action that is not permitted!</text>
+        </results>
+        <results>
+            <status>INFO</status>
+            <text>Actor tries to execute an Action that is not permitted!</text>
+        </results>
+        <results>
+            <status>INFO</status>
+            <text>Actor tries to execute an Action that is not permitted!</text>
+        </results>
+        <results>
+            <status>INFO</status>
+            <text>Actor tries to execute an Action that is not permitted!</text>
+        </results>
+        <results>
+            <status>INFO</status>
+            <text>Actor tries to execute an Action that is not permitted!</text>
+        </results>
+        <results>
+            <status>INFO</status>
+            <text>Actor tries to execute an Action that is not permitted!</text>
+        </results>
+        <results>
+            <status>INFO</status>
+            <text>Actor tries to execute an Action that is not permitted!</text>
+        </results>
+    </CheckResult>
+    <ReportDump>------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Running check : UMLsec4ids Data Usage Control Check
+------------------------------------------------------------------------------------
+----IMPORTANT-------
+To execute this Check successfully, the Initial Node and Final Node must have an empty name
+Decision Nodes, Fork Nodes, Merge Nodes and Join Nodes must have an empty name
+This is because they cannot be added to the permission tag
+
+INFO: There is a decision node the diagram
+
+There is a decision node within the diagram
+If the obligation_stop follows the obligation_start in the same branch, then the check goes through.
+If the obligation_start is before the decision node and the obligation_stop comes after the decision node, the check fails.
+This is because the stop could be avoided.
+Remember to put the obligation_stop in all branches in the diagram
+----------------------------------------
+If a prohibitted action is executed in any branch of the system, the Check fails as well.
+There must not exist any possibility that an prohibitted action is executed.
+----------------------------------------
+If any branch of the system contains an action that is not permitted, the Check fail.
+This is because there is a possibility that this action could be executed.
+
+INFO: There is a fork node the diagram
+
+There is a fork node within the diagram
+The Check detects prohibitted actions that are executed.
+It also detects actions that are executed but are not permitted.
+If an obligation_start comes before the fork node and the obligation_stop comes after, the Check will not fail.
+However there is the possibility that the check fails, if the obligation_start and obligation_stop both occur in the same parallelization.
+
+INFO: Actor tries to execute an Action that is not permitted!
+
+Health Access Body Connector tries to execute an Action that is not permitted! 
+
+INFO: Actor tries to execute an Action that is not permitted!
+
+Health Access Body Connector tries to execute an Action that is not permitted! 
+
+INFO: Actor tries to execute an Action that is not permitted!
+
+Health Access Body Connector tries to execute an Action that is not permitted! 
+
+INFO: Actor tries to execute an Action that is not permitted!
+
+Health Access Body Connector tries to execute an Action that is not permitted! 
+
+INFO: Actor tries to execute an Action that is not permitted!
+
+Health Access Body Connector tries to execute an Action that is not permitted! 
+
+INFO: Actor tries to execute an Action that is not permitted!
+
+Health Access Body Connector tries to execute an Action that is not permitted! 
+
+INFO: Actor tries to execute an Action that is not permitted!
+
+Health Access Body Connector tries to execute an Action that is not permitted! 
+
+INFO: Actor tries to execute an Action that is not permitted!
+
+Health Access Body Connector tries to execute an Action that is not permitted! 
+
+INFO: Actor tries to execute an Action that is not permitted!
+
+Health Access Body Connector tries to execute an Action that is not permitted! 
+
+INFO: Actor tries to execute an Action that is not permitted!
+
+Health Access Body Connector tries to execute an Action that is not permitted! 
+
+INFO: Actor tries to execute an Action that is not permitted!
+
+Health Access Body Connector tries to execute an Action that is not permitted! 
+
+INFO: Actor tries to execute an Action that is not permitted!
+
+Health Access Body Connector tries to execute an Action that is not permitted! 
+
+INFO: Actor tries to execute an Action that is not permitted!
+
+Health Access Body Connector tries to execute an Action that is not permitted! 
+
+INFO: Actor tries to execute an Action that is not permitted!
+
+Health Access Body Connector tries to execute an Action that is not permitted! 
+
+INFO: Actor tries to execute an Action that is not permitted!
+
+Health Access Body Connector tries to execute an Action that is not permitted! 
+
+INFO: Actor tries to execute an Action that is not permitted!
+
+Health Access Body Connector tries to execute an Action that is not permitted! 
+
+INFO: Actor tries to execute an Action that is not permitted!
+
+Health Access Body Connector tries to execute an Action that is not permitted! 
+
+INFO: Actor tries to execute an Action that is not permitted!
+
+Health Access Body Connector tries to execute an Action that is not permitted! 
+
+INFO: Actor tries to execute an Action that is not permitted!
+
+Health Access Body Connector tries to execute an Action that is not permitted! 
+
+INFO: Actor tries to execute an Action that is not permitted!
+
+Health Access Body Connector tries to execute an Action that is not permitted! 
+
+INFO: Actor tries to execute an Action that is not permitted!
+
+Health Access Body Connector tries to execute an Action that is not permitted! 
+
+INFO: Actor tries to execute an Action that is not permitted!
+
+Health Access Body Connector tries to execute an Action that is not permitted! 
+
+INFO: Actor tries to execute an Action that is not permitted!
+
+Health Access Body Connector tries to execute an Action that is not permitted! 
+
+INFO: Actor tries to execute an Action that is not permitted!
+
+Health Access Body Connector tries to execute an Action that is not permitted! 
+</ReportDump>
+</AnalysisResult>

@@ -1,0 +1,13 @@
+<Analysis>
+  <name>trust-mgmt_analysis</name>
+  <modelFile>\trust-mgmt\trust-mgmt.uml</modelFile>
+  <modelType>UML2</modelType>
+  <checks>
+    <Check>
+      <checkID>carisma.check.idscheck.trustmanagementcheck</checkID>
+      <enabled>true</enabled>
+      <parameters/>
+    </Check>
+  </checks>
+  <selectedEditor></selectedEditor>
+</Analysis>

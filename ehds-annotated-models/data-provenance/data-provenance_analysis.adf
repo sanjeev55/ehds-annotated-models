@@ -1,0 +1,13 @@
+<Analysis>
+  <name>data-provenance_analysis</name>
+  <modelFile>\data-provenance\data-provenance.uml</modelFile>
+  <modelType>UML2</modelType>
+  <checks>
+    <Check>
+      <checkID>carisma.check.idscheck.dataprovenancecheck</checkID>
+      <enabled>true</enabled>
+      <parameters/>
+    </Check>
+  </checks>
+  <selectedEditor></selectedEditor>
+</Analysis>

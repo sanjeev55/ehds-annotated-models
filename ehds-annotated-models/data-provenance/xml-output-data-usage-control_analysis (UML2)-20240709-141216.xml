@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AnalysisResult>
+    <AnalyzedModel>data-usage-control_analysis (UML2)</AnalyzedModel>
+    <Filepath>\data-usage-control\data-usage-control.uml</Filepath>
+    <Status>SUCCESS</Status>
+    <Timestamp>20240709-141216</Timestamp>
+    <CheckResult>
+        <name>UMLsec4ids Data Provenance Check</name>
+        <successful>true</successful>
+    </CheckResult>
+    <ReportDump>------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Running check : UMLsec4ids Data Provenance Check
+------------------------------------------------------------------------------------
+IMPORTANT
+To run this check succcessfully you have to name every element!
+Therefore give names not only to actions but to forks, joins, merges and decisions as well.
+Only model within the given Activity.
+--------------------------------------------------------------
+</ReportDump>
+</AnalysisResult>

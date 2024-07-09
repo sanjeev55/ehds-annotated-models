@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AnalysisResult>
+    <AnalyzedModel>trust-mgmt_analysis (UML2)</AnalyzedModel>
+    <Filepath>\trust-mgmt\trust-mgmt.uml</Filepath>
+    <Status>SUCCESS</Status>
+    <Timestamp>20240709-145225</Timestamp>
+    <CheckResult>
+        <name>UMLsec4ids Trust Management Check</name>
+        <successful>true</successful>
+    </CheckResult>
+    <ReportDump>------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Running check : UMLsec4ids Trust Management Check
+------------------------------------------------------------------------------------
+All Nodes that try to communicate must be named
+</ReportDump>
+</AnalysisResult>
